@@ -1,0 +1,185 @@
+Portfolio Assessment
+Title:
+
+Documenting Digital Forensics: Evidence Acquisition, Preservation, Analysis and Reporting
+
+1. Introduction:
+
+Digital forensics is the process of collecting, preserving, examining, analyzing and reporting digital evidence. It is used to investigate cybersecurity incidents such as unauthorized access, data theft, malware attacks and suspicious activities.
+
+Digital evidence can be obtained from computers, mobile devices, storage devices, network logs and other digital systems. The evidence must be handled carefully to prevent modification or loss of important information.
+
+This portfolio explains the different stages of digital forensic investigation, including evidence acquisition, preservation, analysis and reporting.
+
+2. Objectives:
+To identify different sources of digital evidence.
+To collect digital evidence using proper forensic methods.
+To preserve the integrity of digital evidence.
+To verify evidence using cryptographic hashing.
+To maintain a proper chain of custody.
+To examine files, logs and system artifacts.
+To analyze evidence and reconstruct events.
+To prepare a professional forensic report.
+To follow ethical and legal practices during investigation.
+3. Digital Forensics Process:
+
+The proposed digital forensic investigation follows these main stages:
+
+Stage	Description
+Evidence Identification	Identify devices and data that may contain useful evidence.
+Evidence Acquisition	Collect evidence and create a forensic copy or image.
+Evidence Preservation	Protect the original evidence from modification or damage.
+Examination	Examine files, logs, metadata and other digital artifacts.
+Analysis	Interpret the collected evidence and identify relevant findings.
+Timeline Reconstruction	Arrange important events according to date and time.
+Reporting	Document the methodology, evidence, findings and conclusion.
+4. Main Digital Forensics Components:
+
+The proposed Digital Forensics process uses several important components to properly collect, preserve and analyze digital evidence. Each component performs a specific function during the forensic investigation.
+
+1. Evidence Identification:
+
+Evidence identification is the first step in a digital forensic investigation. Investigators identify computers, mobile devices, hard disks, USB drives, system logs and other sources that may contain useful evidence.
+
+2. Evidence Acquisition:
+
+Evidence acquisition is the process of collecting digital evidence from a device. A forensic image or verified copy is created so that the original evidence can be protected from unnecessary changes.
+
+3. Evidence Preservation:
+
+Evidence preservation ensures that digital evidence remains safe and unchanged during the investigation. The original evidence should be securely stored and accessed only by authorized investigators.
+
+4. Cryptographic Hashing:
+
+Cryptographic hashing is used to verify the integrity of digital evidence. SHA-256 can be used to generate a hash value for a file or forensic image. If the evidence is changed, the hash value will normally change.
+
+5. Chain of Custody:
+
+Chain of custody records the complete history of evidence handling. It includes information about who collected, transferred, accessed and stored the evidence.
+
+6. Forensic Examination:
+
+Forensic examination involves examining the acquired evidence to identify useful information. Investigators may examine files, deleted data, browser history, system logs, metadata and user activity.
+
+7. Timeline Analysis:
+
+Timeline analysis organizes important events according to their date and time. It helps investigators understand the sequence of activities that occurred during a security incident.
+
+8. Forensic Reporting:
+
+Forensic reporting documents the complete investigation process. It includes the evidence collected, tools used, analysis performed, findings, limitations and final conclusion.
+
+5. Evidence Sources:
+
+Different sources can provide useful information during a digital forensic investigation.
+
+Evidence Source	Information Obtained
+Computer / Laptop	Files, folders, user activity and system information
+Hard Disk / SSD	Files, deleted data and filesystem information
+USB Device	Files and external storage activity
+Mobile Device	Messages, applications and device information
+System Logs	Login attempts and system events
+Browser History	Websites, downloads and browsing activity
+Network Logs	Network connections and communication records
+File Metadata	File creation, modification and access information
+6. Evidence Preservation Policies:
+
+Evidence Integrity Policy:
+Original evidence should not be unnecessarily modified during the investigation.
+
+Hash Verification Policy:
+A suitable hashing algorithm such as SHA-256 should be used to verify the integrity of evidence.
+
+Chain of Custody Policy:
+Every transfer and access of evidence should be properly recorded.
+
+Access Control Policy:
+Only authorized investigators should have access to forensic evidence.
+
+Storage Policy:
+Evidence should be stored securely to prevent unauthorized access, modification or deletion.
+
+Documentation Policy:
+All important investigation activities, tools, timestamps and findings should be recorded.
+
+7. Implementation Strategy:
+Phase	Activity
+Phase 1 – Identify	Identify the incident, affected devices, users and possible evidence sources.
+Phase 2 – Acquire	Collect relevant evidence and create a forensic image or verified copy.
+Phase 3 – Preserve	Calculate hash values and securely store the original evidence.
+Phase 4 – Examine	Examine files, logs, metadata and other relevant artifacts.
+Phase 5 – Analyze	Analyze and correlate information from different evidence sources.
+Phase 6 – Reconstruct	Create a timeline of important events.
+Phase 7 – Validate	Verify evidence integrity and confirm the findings.
+Phase 8 – Report	Prepare the final forensic report with findings and conclusion.
+8. Tools Used:
+Tool	Purpose
+Autopsy	Forensic examination of disk images
+FTK Imager	Evidence acquisition and forensic imaging
+The Sleuth Kit	Filesystem analysis
+Wireshark	Network traffic analysis
+ExifTool	File metadata analysis
+Hashing Tools	Evidence integrity verification
+GitHub	Project documentation and version control
+9. Evidence Documentation:
+
+Each evidence item should be assigned a unique identification number and properly documented.
+
+Evidence Information	Details
+Evidence ID	DF-001
+Evidence Type	Forensic Disk Image
+Source	Laboratory Computer
+Acquisition Date	__________
+Acquisition Time	__________
+Examiner	__________
+Hash Algorithm	SHA-256
+Hash Value	__________________
+Storage Location	__________________
+Verification Status	PASS / FAIL
+10. Chain of Custody:
+
+The chain of custody can be maintained using the following table:
+
+Evidence ID	Date/Time	Released By	Received By	Purpose	Location
+DF-001	______	______	______	Acquisition	Lab
+DF-001	______	______	______	Examination	Lab
+DF-001	______	______	______	Storage	Secure Storage
+
+Maintaining a chain of custody helps ensure that the evidence is properly tracked throughout the investigation.
+
+11. Testing and Validation:
+Test Case	Objective	Expected Result
+Hash Verification	Verify evidence integrity	Hash values should match
+Evidence Identification	Identify relevant artifacts	Required evidence should be identified
+Timeline Analysis	Reconstruct the sequence of events	Events should be arranged chronologically
+Report Verification	Check investigation documentation	Investigation should be understandable and reproducible
+12. Expected Benefits:
+Maintains the integrity of digital evidence.
+Helps investigate cybersecurity incidents systematically.
+Helps identify suspicious activities.
+Supports reconstruction of security incidents.
+Provides reliable evidence verification.
+Improves forensic investigation and incident response.
+Provides proper documentation of investigation activities.
+Supports professional and ethical evidence handling.
+13. Ethical and Legal Considerations:
+
+Digital forensic investigations should be performed only with proper authorization. Investigators should protect personal and confidential information and avoid unnecessary modification of original evidence.
+
+The investigator should also maintain confidentiality, restrict evidence access to authorized personnel, follow organizational policies and applicable laws, and report findings objectively.
+
+14. Conclusion:
+
+Digital forensics provides a systematic method for investigating cybersecurity incidents using digital evidence. Proper acquisition, preservation, examination, analysis and reporting are important for maintaining the reliability of an investigation.
+
+By using forensic imaging, cryptographic hashing, chain-of-custody records, timeline analysis and forensic tools, investigators can identify relevant evidence and understand the sequence of events during a security incident.
+
+The proposed digital forensic process provides a practical approach for handling digital evidence while maintaining its integrity and supporting accurate and professional reporting.
+
+15. References:
+S.No	Reference
+1	NIST SP 800-86 – Guide to Integrating Forensic Techniques into Incident Response
+2	ISO/IEC 27037 – Guidelines for Identification, Collection, Acquisition and Preservation of Digital Evidence
+3	ISO/IEC 27041 – Guidance on Assuring Suitability and Adequacy of Incident Investigative Method
+4	ISO/IEC 27042 – Guidelines for the Analysis and Interpretation of Digital Evidence
+5	ISO/IEC 27043 – Incident Investigation Principles and Processes
